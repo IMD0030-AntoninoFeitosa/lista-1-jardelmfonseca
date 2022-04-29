@@ -18,6 +18,7 @@ std::pair<int,int> min_max( int V[], size_t n )
     // TODO: Adicione aqui sua solução.
 
   std::pair<int,int> retorno;
+  // faltou o caso n == 0 retornando {-1,-1}
 
   for (int i = 0; i < n; ++i)
   {
@@ -36,6 +37,7 @@ std::pair<int,int> min_max( int V[], size_t n )
 }
 
 
+//não deveria ter um main
 int main(int argc, char const *argv[])
 {
     int v[]={1,2,3,4,5,6,7,8,9};

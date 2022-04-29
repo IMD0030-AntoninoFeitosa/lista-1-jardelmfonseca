@@ -12,6 +12,8 @@ int main( void )
 {
     // TODO: Adicione seu código aqui. 
 
+    // a implementação não corresponde ao enunciado
+
     int var1=0;
     int var2=0;
 

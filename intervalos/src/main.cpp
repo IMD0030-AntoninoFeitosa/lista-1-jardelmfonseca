@@ -11,6 +11,7 @@ using std::endl;
 #include <iomanip>
 using std::setprecision;
 
+// não utilize variáveis globais
 int intervalo1[2]={0,25};
 int intervalo2[2]={25,50};
 int intervalo3[2]={50,75};

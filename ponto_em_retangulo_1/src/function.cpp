@@ -32,7 +32,7 @@ location_t pt_in_rect( const Ponto &IE, const Ponto &SD, const Ponto &P )
     return retorno;
 }
 
-
+// não deveria ter um main
 int main(int argc, char const *argv[])
 {
     const Ponto ie = {1,1};

@@ -16,11 +16,13 @@ void reverse( std::array< std::string, SIZE > & arr )
         std::swap(arr[i],arr[tamanho-i-1]);
     }
 
+// não exiba informações nas funções, a menos que seja esse o objetivo da função
 std::cout << arr[0] << " " << arr[1] << " " << arr[2] << " " << arr[3] << " " << arr[4] << std::endl ;
  
 
 }
 
+// deveria ser modificada somente a função reverse
 int main(int argc, char const *argv[])
 {
     std::array<std::string,5> a = {"teste1","teste2","teste3","teste4","teste5"};
